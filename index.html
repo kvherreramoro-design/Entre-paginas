@@ -161,11 +161,11 @@
           <article class="product-card reveal">
             <img src="img/libro catedrales.jpg" alt="Literatura latinoamericana.">
             <div class="product-body">
-              <span class="tag">Favorito</span>
-              <h3>Catedrales Claudia Piñeiro</h3>
+              <span class="tag">Thriller psicológico</span>
+              <h3>Secretos familiares</h3>
               <p class="price">$329 MXN</p>
               <p class="description">Un misterio familiar marcado por secretos, creencias religiosas y una tragedia que desafía todo lo que parecía ser verdad.</p>
-              <button type="button" class="btn card" onclick="openModal('modal-caja')">Ver producto</button>
+              <button type="button" class="btn card" onclick="openModal('modal-catedrales')">Ver producto</button>
             </div>
           </article>
 
@@ -175,11 +175,11 @@
           <article class="product-card reveal">
             <img src="img/libro Panchiko.jpg" alt="Literatura asiática.">
             <div class="product-body">
-              <span class="tag">Favorito</span>
-              <h3>Pachinko Min Jin Lee </h3>
+              <span class="tag">Ficción histórica</span>
+              <h3>Identidad y pertenencia </h3>
               <p class="price">$448 MXN</p>
               <p class="description">Una novela profunda sobre la soledad, la identidad y la dificultad de encontrar un lugar en un mundo al que no sentimos pertenece.</p>
-              <button type="button" class="btn card" onclick="openModal('modal-caja')">Ver producto</button>
+              <button type="button" class="btn card" onclick="openModal('modal-Pachinko')">Ver producto</button>
             </div>
           </article> 
 
@@ -189,8 +189,8 @@
           <article class="product-card reveal">
             <img src="img/libro indigno.jpg" alt="literatura asiática 2.">
             <div class="product-body">
-              <span class="tag">Favorito</span>
-              <h3>Indigno Osamu Dazai</h3>
+              <span class="tag">Identidad y pertenencia</span>
+              <h3>Alienación social</h3>
               <p class="price">$585 MXN</p>
               <p class="description">TUna saga familiar donde el amor, los secretos y el realismo mágico se entrelazan con la historia y los cambios políticos de Chile.</p>
               <button type="button" class="btn card" onclick="openModal('modal-caja')">Ver producto</button>
@@ -203,8 +203,8 @@
           <article class="product-card reveal">
             <img src="img/libro la casa espíritus.jpg" alt="Inspirado en The Secret Garden — Frances Hodgson .">
             <div class="product-body">
-              <span class="tag">Favorito</span>
-              <h3>La casa de los espíritus Isabelle Allende</h3>
+              <span class="tag">Realismo mágico</span>
+              <h3>Memoria familiar</h3>
               <p class="price">$100 MXN</p>
               <p class="description">Un misterio familiar marcado por secretos, creencias religiosas y una tragedia que desafía todo lo que parecía ser verdad.</p>
               <button type="button" class="btn card" onclick="openModal('modal-caja')">Ver producto</button>
@@ -217,8 +217,8 @@
           <article class="product-card reveal">
             <img src="img/libro poiicía memoria.jpg" alt="Literatura asiática 3.">
             <div class="product-body">
-              <span class="tag">Favorito</span>
-              <h3>Policía de la memoria Yoko Ogawa</h3>
+              <span class="tag">Ficción distópica</span>
+              <h3>Olvido y control</h3>
               <p class="price">$348 MXN</p>
               <p class="description">Una conmovedora historia de varias generaciones sobre el amor, el sacrificio, la identidad y la búsqueda de un hogar lejos de la tierra natal.</p>
               <button type="button" class="btn card" onclick="openModal('modal-caja')">Ver producto</button>
@@ -231,8 +231,8 @@
           <article class="product-card reveal">
             <img src="img/libro murmullo ab.jpg" alt="Literatura mexicana.">
             <div class="product-body">
-              <span class="tag">Favorito</span>
-              <h3>El murmullo de las abejas Sofía Segovia</h3>
+              <span class="tag">Realismo mágico</span>
+              <h3>	Familia y destino</h3>
               <p class="price">$499 MXN</p>
               <p class="description">Una historia llena de magia, naturaleza y esperanza sobre un niño extraordinario cuyo destino transformará la vida de una familia.</p>
               <button type="button" class="btn card" onclick="openModal('modal-caja')">Ver producto</button>
@@ -369,7 +369,8 @@
             <li><i data-lucide="instagram"></i> <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">@Entre páginas</a></li>
             <li><i data-lucide="facebook"></i> <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Entre páginas</a></li>
             <li><i data-lucide="mail"></i> <a href="mailto:kv.herreramoro@ebc.edu.mx">kv.herreramoro@ebc.edu.mx</a></li>
-            <li><i data-lucide="clock-3"></i> Lunes a sábado, 10:00 a 19:00</li>
+             <li><i data-lucide="map"></i> <a href="https://maps.app.goo.gl/hn9yWczwd2bcGncNA">Polanco</a></li>
+            <li><i data-lucide="clock-3"></i> Lunes a sábado, 10:00 a 22:00</li>
           </ul>
         </aside>
       </div>
@@ -388,6 +389,57 @@
     <p>© <span id="current-year"></span> ENTRE PÁGINAS. Todos los derechos reservados.</p>
     <a href="#inicio">Volver arriba ↑</a>
   </footer>
+
+
+<!--MODAL PARA LOS PRODUCTOS O SERVICIOS,ETC-->
+<div id="modal-catedrales" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-data-title">
+    <div class="modal-panel">
+      <div class="modal-image">
+        <img src="img/libro catedrales.jpg" alt="Portada libro catedrales">
+        <button type="button" class="modal-close" aria-label="Cerrar producto" onclick="closeModal('modal-catedrales')"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <h2 id="modal-catedrales-title">Libro catedrales</h2>
+        <p class="price">$329 MXN</p>
+        <p> Treinta años después de la misteriosa muerte de una adolescente, los secretos de una familia comienzan a salir a la luz. Una novela queexplora la culpa, la religión, el silencio y la búsqueda de la verdad..</p>
+        <h3>Detalles del libro</h3>
+        <ul>
+          <li>Autora: Claudia Piñeiro</li>
+          <li>Editorial: Alfaguara</li>
+          <li>Género:Novela negra y suspenso</li>
+          <li>Publicación original: 2020</li>
+          <li>Idioma:Español/li>
+        </ul>
+        <button type="button" class="btn primary" onclick="openWhatsApp('Hola, me interesa comprar el libro Catedrales de Claudia Piñeiro.¿Está disponible?')">Pedir por WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!--MODAL PARA LA TARJETA 2-->
+  <div id="modal-Pachinko" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-data-title">
+    <div class="modal-panel">
+      <div class="modal-image">
+        <img src="img/libro Panchiko.jpg" alt="Portada libro Pachinko">
+        <button type="button" class="modal-close" aria-label="Cerrar producto" onclick="closeModal('modal-Pachinko')"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <h2 id="modal-Pachinko-title">Libro Pachinko</h2>
+        <p class="price">$448 MXN</p>
+        <p> A través de cuatro generaciones de una familia coreana, esta novela narra una historia de amor, sacrificio y supervivencia en un Japón marcado por la discriminación. Una conmovedora exploración de la identidad, la esperanza y el sentido de pertenencia.</p>
+        <h3>Detalles del libro</h3>
+        <ul>
+          <li>Autora: Min Jin Lee</li>
+          <li>Editorial: Quaterni</li>
+          <li>Género:Novela histórica y drama familiar</li>
+          <li>Publicación original: 2017</li>
+          <li>Idioma:Español</li>
+        </ul>
+        <button type="button" class="btn primary" onclick="openWhatsApp('Hola, me interesa comprar el libro Pachinko de MIn Jin Lee.¿Está disponible?')">Pedir por WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
 
   <script src="js/script.js"></script>
   
